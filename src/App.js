@@ -2,9 +2,12 @@ import React, { Component } from 'react';
 import './App.css';
 import logo from './logo.png';
 
+import ReactGA from 'react-ga';
 
 class App extends Component {
   render() {
+    ReactGA.initialize('UA-148187805-1');
+    ReactGA.pageview('/');
     return (
       <div className="App">
 
