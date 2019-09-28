@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navigation from '../layout/Navigation';
 
 import '../../App.css';
 import logo from '../../logo.png';
@@ -10,9 +11,10 @@ class Home extends Component {
     ReactGA.initialize('UA-148187805-1');
     ReactGA.pageview('/');
     return (
-      <div className="App">
+      <div className="Home">
 
       <body>
+      <Navigation />
         <div className="welcome-section">
 
           <div className="section -paragraph">

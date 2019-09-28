@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navigation from '../layout/Navigation';
 
 import '../../App.css';
 
@@ -12,6 +13,8 @@ class Calculator extends Component {
       <div className="Calculator">
 
       <body>
+      <Navigation />
+
 
 
             <p>Hello, Calculator!</p>
