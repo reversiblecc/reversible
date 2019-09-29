@@ -13,9 +13,8 @@ class Home extends Component {
     return (
       <div className="Home">
 
-      <body>
       <Navigation />
-        <div className="welcome-section">
+        <div className="main-section">
 
           <div className="section -paragraph">
           <div className="logo-section">
@@ -27,8 +26,6 @@ class Home extends Component {
           </div>
 
         </div>
-
-      </body>
 
       </div>
     );
