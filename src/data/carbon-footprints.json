@@ -1,0 +1,1430 @@
+[
+ {
+   "value": "AF",
+   "label": "Afghanistan",
+   "carbonFootprint": 0.293946407,
+   "countryCodeThreeDigit": "AFG",
+   "countryNumber": 4
+ },
+ {
+   "value": "AL",
+   "label": "Albania",
+   "carbonFootprint": 1.978763312,
+   "countryCodeThreeDigit": "ALB",
+   "countryNumber": 8
+ },
+ {
+   "value": "DZ",
+   "label": "Algeria",
+   "carbonFootprint": 3.735520147,
+   "countryCodeThreeDigit": "DZA",
+   "countryNumber": 12
+ },
+ {
+   "value": "AD",
+   "label": "Andorra",
+   "carbonFootprint": 5.832906215,
+   "countryCodeThreeDigit": "AND",
+   "countryNumber": 20
+ },
+ {
+   "value": "AO",
+   "label": "Angola",
+   "carbonFootprint": 1.290306776,
+   "countryCodeThreeDigit": "AGO",
+   "countryNumber": 24
+ },
+ {
+   "value": "AG",
+   "label": "Antigua and Barbuda",
+   "carbonFootprint": 5.744419956,
+   "countryCodeThreeDigit": "ATG",
+   "countryNumber": 28
+ },
+ {
+   "value": "AR",
+   "label": "Argentina",
+   "carbonFootprint": 4.781507775,
+   "countryCodeThreeDigit": "ARG",
+   "countryNumber": 32
+ },
+ {
+   "value": "AM",
+   "label": "Armenia",
+   "carbonFootprint": 1.898719374,
+   "countryCodeThreeDigit": "ARM",
+   "countryNumber": 51
+ },
+ {
+   "value": "AW",
+   "label": "Aruba",
+   "carbonFootprint": 8.410064178,
+   "countryCodeThreeDigit": "ABW",
+   "countryNumber": 533
+ },
+ {
+   "value": "AU",
+   "label": "Australia",
+   "carbonFootprint": 15.38876602,
+   "countryCodeThreeDigit": "AUS",
+   "countryNumber": 36
+ },
+ {
+   "value": "AT",
+   "label": "Austria",
+   "carbonFootprint": 6.86986793,
+   "countryCodeThreeDigit": "AUT",
+   "countryNumber": 40
+ },
+ {
+   "value": "AZ",
+   "label": "Azerbaijan",
+   "carbonFootprint": 3.931560609,
+   "countryCodeThreeDigit": "AZE",
+   "countryNumber": 31
+ },
+ {
+   "value": "BS",
+   "label": "Bahamas, The",
+   "carbonFootprint": 6.520069719,
+   "countryCodeThreeDigit": "BHS",
+   "countryNumber": 44
+ },
+ {
+   "value": "BH",
+   "label": "Bahrain",
+   "carbonFootprint": 23.45540632,
+   "countryCodeThreeDigit": "BHR",
+   "countryNumber": 48
+ },
+ {
+   "value": "BD",
+   "label": "Bangladesh",
+   "carbonFootprint": 0.47365761,
+   "countryCodeThreeDigit": "BGD",
+   "countryNumber": 50
+ },
+ {
+   "value": "BB",
+   "label": "Barbados",
+   "carbonFootprint": 4.467476521,
+   "countryCodeThreeDigit": "BRB",
+   "countryNumber": 52
+ },
+ {
+   "value": "BY",
+   "label": "Belarus",
+   "carbonFootprint": 6.701957705,
+   "countryCodeThreeDigit": "BLR",
+   "countryNumber": 112
+ },
+ {
+   "value": "BE",
+   "label": "Belgium",
+   "carbonFootprint": 8.328159898,
+   "countryCodeThreeDigit": "BEL",
+   "countryNumber": 56
+ },
+ {
+   "value": "BZ",
+   "label": "Belize",
+   "carbonFootprint": 1.400941234,
+   "countryCodeThreeDigit": "BLZ",
+   "countryNumber": 84
+ },
+ {
+   "value": "BJ",
+   "label": "Benin",
+   "carbonFootprint": 0.61420609,
+   "countryCodeThreeDigit": "BEN",
+   "countryNumber": 204
+ },
+ {
+   "value": "BM",
+   "label": "Bermuda",
+   "carbonFootprint": 8.838314988,
+   "countryCodeThreeDigit": "BMU",
+   "countryNumber": 60
+ },
+ {
+   "value": "BT",
+   "label": "Bhutan",
+   "carbonFootprint": 1.392229534,
+   "countryCodeThreeDigit": "BTN",
+   "countryNumber": 64
+ },
+ {
+   "value": "BO",
+   "label": "Bolivia",
+   "carbonFootprint": 1.90636432,
+   "countryCodeThreeDigit": "BOL",
+   "countryNumber": 68
+ },
+ {
+   "value": "BA",
+   "label": "Bosnia and Herzegovina",
+   "carbonFootprint": 6.384938819,
+   "countryCodeThreeDigit": "BIH",
+   "countryNumber": 70
+ },
+ {
+   "value": "BW",
+   "label": "Botswana",
+   "carbonFootprint": 3.367451334,
+   "countryCodeThreeDigit": "BWA",
+   "countryNumber": 72
+ },
+ {
+   "value": "BR",
+   "label": "Brazil",
+   "carbonFootprint": 2.612933521,
+   "countryCodeThreeDigit": "BRA",
+   "countryNumber": 76
+ },
+ {
+   "value": "VG",
+   "label": "British Virgin Islands",
+   "carbonFootprint": 6.198316603,
+   "countryCodeThreeDigit": "VGB",
+   "countryNumber": 92
+ },
+ {
+   "value": "BN",
+   "label": "Brunei Darussalam",
+   "carbonFootprint": 22.2291779,
+   "countryCodeThreeDigit": "BRN",
+   "countryNumber": 96
+ },
+ {
+   "value": "BG",
+   "label": "Bulgaria",
+   "carbonFootprint": 5.871615869,
+   "countryCodeThreeDigit": "BGR",
+   "countryNumber": 100
+ },
+ {
+   "value": "BF",
+   "label": "Burkina Faso",
+   "carbonFootprint": 0.162018438,
+   "countryCodeThreeDigit": "BFA",
+   "countryNumber": 854
+ },
+ {
+   "value": "BI",
+   "label": "Burundi",
+   "carbonFootprint": 0.044699992,
+   "countryCodeThreeDigit": "BDI",
+   "countryNumber": 108
+ },
+ {
+   "value": "CV",
+   "label": "Cabo Verde",
+   "carbonFootprint": 0.948113817,
+   "countryCodeThreeDigit": "CPV",
+   "countryNumber": 132
+ },
+ {
+   "value": "KH",
+   "label": "Cambodia",
+   "carbonFootprint": 0.437653585,
+   "countryCodeThreeDigit": "KHM",
+   "countryNumber": 116
+ },
+ {
+   "value": "CM",
+   "label": "Cameroon",
+   "carbonFootprint": 0.308791722,
+   "countryCodeThreeDigit": "CMR",
+   "countryNumber": 120
+ },
+ {
+   "value": "CA",
+   "label": "Canada",
+   "carbonFootprint": 15.15892722,
+   "countryCodeThreeDigit": "CAN",
+   "countryNumber": 124
+ },
+ {
+   "value": "KY",
+   "label": "Cayman Islands",
+   "carbonFootprint": 8.91920852,
+   "countryCodeThreeDigit": "CYM",
+   "countryNumber": 136
+ },
+ {
+   "value": "CF",
+   "label": "Central African Republic",
+   "carbonFootprint": 0.067357126,
+   "countryCodeThreeDigit": "CAF",
+   "countryNumber": 140
+ },
+ {
+   "value": "TD",
+   "label": "Chad",
+   "carbonFootprint": 0.053407242,
+   "countryCodeThreeDigit": "TCD",
+   "countryNumber": 148
+ },
+ {
+   "value": "CL",
+   "label": "Chile",
+   "carbonFootprint": 4.6490622,
+   "countryCodeThreeDigit": "CHL",
+   "countryNumber": 152
+ },
+ {
+   "value": "CN",
+   "label": "China",
+   "carbonFootprint": 7.543907641,
+   "countryCodeThreeDigit": "CHN",
+   "countryNumber": 156
+ },
+ {
+   "value": "CO",
+   "label": "Colombia",
+   "carbonFootprint": 1.790356827,
+   "countryCodeThreeDigit": "COL",
+   "countryNumber": 170
+ },
+ {
+   "value": "KM",
+   "label": "Comoros",
+   "carbonFootprint": 0.202812784,
+   "countryCodeThreeDigit": "COM",
+   "countryNumber": 174
+ },
+ {
+   "value": "CD",
+   "label": "Congo, Dem. Rep.",
+   "carbonFootprint": 0.063330889,
+   "countryCodeThreeDigit": "COD",
+   "countryNumber": 180
+ },
+ {
+   "value": "CG",
+   "label": "Congo, Rep.",
+   "carbonFootprint": 0.653359719,
+   "countryCodeThreeDigit": "COG",
+   "countryNumber": 178
+ },
+ {
+   "value": "CR",
+   "label": "Costa Rica",
+   "carbonFootprint": 1.618087849,
+   "countryCodeThreeDigit": "CRI",
+   "countryNumber": 188
+ },
+ {
+   "value": "CI",
+   "label": "Cote d'Ivoire",
+   "carbonFootprint": 0.487688034,
+   "countryCodeThreeDigit": "CIV",
+   "countryNumber": 384
+ },
+ {
+   "value": "HR",
+   "label": "Croatia",
+   "carbonFootprint": 3.973804906,
+   "countryCodeThreeDigit": "HRV",
+   "countryNumber": 191
+ },
+ {
+   "value": "CU",
+   "label": "Cuba",
+   "carbonFootprint": 3.080994246,
+   "countryCodeThreeDigit": "CUB",
+   "countryNumber": 192
+ },
+ {
+   "value": "CW",
+   "label": "Curacao",
+   "carbonFootprint": 37.72628905,
+   "countryCodeThreeDigit": "CUW",
+   "countryNumber": 531
+ },
+ {
+   "value": "CY",
+   "label": "Cyprus",
+   "carbonFootprint": 5.260461605,
+   "countryCodeThreeDigit": "CYP",
+   "countryNumber": 196
+ },
+ {
+   "value": "CZ",
+   "label": "Czech Republic",
+   "carbonFootprint": 9.165978376,
+   "countryCodeThreeDigit": "CZE",
+   "countryNumber": 203
+ },
+ {
+   "value": "DK",
+   "label": "Denmark",
+   "carbonFootprint": 5.935712482,
+   "countryCodeThreeDigit": "DNK",
+   "countryNumber": 208
+ },
+ {
+   "value": "DJ",
+   "label": "Djibouti",
+   "carbonFootprint": 0.803830216,
+   "countryCodeThreeDigit": "DJI",
+   "countryNumber": 262
+ },
+ {
+   "value": "DM",
+   "label": "Dominica",
+   "carbonFootprint": 1.908686783,
+   "countryCodeThreeDigit": "DMA",
+   "countryNumber": 212
+ },
+ {
+   "value": "DO",
+   "label": "Dominican Republic",
+   "carbonFootprint": 2.11899467,
+   "countryCodeThreeDigit": "DOM",
+   "countryNumber": 214
+ },
+ {
+   "value": "EC",
+   "label": "Ecuador",
+   "carbonFootprint": 2.753266363,
+   "countryCodeThreeDigit": "ECU",
+   "countryNumber": 218
+ },
+ {
+   "value": "EG",
+   "label": "Egypt, Arab Rep.",
+   "carbonFootprint": 2.232732005,
+   "countryCodeThreeDigit": "EGY",
+   "countryNumber": 818
+ },
+ {
+   "value": "SV",
+   "label": "El Salvador",
+   "carbonFootprint": 0.998428944,
+   "countryCodeThreeDigit": "SLV",
+   "countryNumber": 222
+ },
+ {
+   "value": "GQ",
+   "label": "Equatorial Guinea",
+   "carbonFootprint": 4.763967152,
+   "countryCodeThreeDigit": "GNQ",
+   "countryNumber": 226
+ },
+ {
+   "value": "EE",
+   "label": "Estonia",
+   "carbonFootprint": 14.84881917,
+   "countryCodeThreeDigit": "EST",
+   "countryNumber": 233
+ },
+ {
+   "value": "SZ",
+   "label": "Eswatini",
+   "carbonFootprint": 1.098404505,
+   "countryCodeThreeDigit": "SWZ",
+   "countryNumber": 748
+ },
+ {
+   "value": "ET",
+   "label": "Ethiopia",
+   "carbonFootprint": 0.118240576,
+   "countryCodeThreeDigit": "ETH",
+   "countryNumber": 231
+ },
+ {
+   "value": "FO",
+   "label": "Faroe Islands",
+   "carbonFootprint": 12.46290659,
+   "countryCodeThreeDigit": "FRO",
+   "countryNumber": 234
+ },
+ {
+   "value": "FJ",
+   "label": "Fiji",
+   "carbonFootprint": 1.350070921,
+   "countryCodeThreeDigit": "FJI",
+   "countryNumber": 242
+ },
+ {
+   "value": "FI",
+   "label": "Finland",
+   "carbonFootprint": 8.660721243,
+   "countryCodeThreeDigit": "FIN",
+   "countryNumber": 246
+ },
+ {
+   "value": "FR",
+   "label": "France",
+   "carbonFootprint": 4.573181595,
+   "countryCodeThreeDigit": "FRA",
+   "countryNumber": 250
+ },
+ {
+   "value": "PF",
+   "label": "French Polynesia",
+   "carbonFootprint": 2.955679873,
+   "countryCodeThreeDigit": "PYF",
+   "countryNumber": 258
+ },
+ {
+   "value": "GA",
+   "label": "Gabon",
+   "carbonFootprint": 2.756381782,
+   "countryCodeThreeDigit": "GAB",
+   "countryNumber": 266
+ },
+ {
+   "value": "GM",
+   "label": "Gambia, The",
+   "carbonFootprint": 0.253640982,
+   "countryCodeThreeDigit": "GMB",
+   "countryNumber": 270
+ },
+ {
+   "value": "GE",
+   "label": "Georgia",
+   "carbonFootprint": 2.416460496,
+   "countryCodeThreeDigit": "GEO",
+   "countryNumber": 268
+ },
+ {
+   "value": "DE",
+   "label": "Germany",
+   "carbonFootprint": 8.889370395,
+   "countryCodeThreeDigit": "DEU",
+   "countryNumber": 276
+ },
+ {
+   "value": "GH",
+   "label": "Ghana",
+   "carbonFootprint": 0.531371738,
+   "countryCodeThreeDigit": "GHA",
+   "countryNumber": 288
+ },
+ {
+   "value": "GI",
+   "label": "Gibraltar",
+   "carbonFootprint": 15.65746479,
+   "countryCodeThreeDigit": "GIB",
+   "countryNumber": 292
+ },
+ {
+   "value": "GR",
+   "label": "Greece",
+   "carbonFootprint": 6.180337268,
+   "countryCodeThreeDigit": "GRC",
+   "countryNumber": 300
+ },
+ {
+   "value": "GL",
+   "label": "Greenland",
+   "carbonFootprint": 8.989181988,
+   "countryCodeThreeDigit": "GRL",
+   "countryNumber": 304
+ },
+ {
+   "value": "GD",
+   "label": "Grenada",
+   "carbonFootprint": 2.222383427,
+   "countryCodeThreeDigit": "GRD",
+   "countryNumber": 308
+ },
+ {
+   "value": "GT",
+   "label": "Guatemala",
+   "carbonFootprint": 1.151000836,
+   "countryCodeThreeDigit": "GTM",
+   "countryNumber": 320
+ },
+ {
+   "value": "GN",
+   "label": "Guinea",
+   "carbonFootprint": 0.219671873,
+   "countryCodeThreeDigit": "GIN",
+   "countryNumber": 324
+ },
+ {
+   "value": "GW",
+   "label": "Guinea-Bissau",
+   "carbonFootprint": 0.160335469,
+   "countryCodeThreeDigit": "GNB",
+   "countryNumber": 624
+ },
+ {
+   "value": "GY",
+   "label": "Guyana",
+   "carbonFootprint": 2.632392779,
+   "countryCodeThreeDigit": "GUY",
+   "countryNumber": 328
+ },
+ {
+   "value": "HT",
+   "label": "Haiti",
+   "carbonFootprint": 0.271140187,
+   "countryCodeThreeDigit": "HTI",
+   "countryNumber": 332
+ },
+ {
+   "value": "HN",
+   "label": "Honduras",
+   "carbonFootprint": 1.057648023,
+   "countryCodeThreeDigit": "HND",
+   "countryNumber": 340
+ },
+ {
+   "value": "HK",
+   "label": "Hong Kong SAR, China",
+   "carbonFootprint": 6.393600526,
+   "countryCodeThreeDigit": "HKG",
+   "countryNumber": 344
+ },
+ {
+   "value": "HU",
+   "label": "Hungary",
+   "carbonFootprint": 4.265574976,
+   "countryCodeThreeDigit": "HUN",
+   "countryNumber": 348
+ },
+ {
+   "value": "IS",
+   "label": "Iceland",
+   "carbonFootprint": 6.059657407,
+   "countryCodeThreeDigit": "ISL",
+   "countryNumber": 352
+ },
+ {
+   "value": "IN",
+   "label": "India",
+   "carbonFootprint": 1.727670507,
+   "countryCodeThreeDigit": "IND",
+   "countryNumber": 356
+ },
+ {
+   "value": "ID",
+   "label": "Indonesia",
+   "carbonFootprint": 1.81937838,
+   "countryCodeThreeDigit": "IDN",
+   "countryNumber": 360
+ },
+ {
+   "value": "IR",
+   "label": "Iran, Islamic Rep.",
+   "carbonFootprint": 8.384101101,
+   "countryCodeThreeDigit": "IRN",
+   "countryNumber": 364
+ },
+ {
+   "value": "IQ",
+   "label": "Iraq",
+   "carbonFootprint": 4.89491703,
+   "countryCodeThreeDigit": "IRQ",
+   "countryNumber": 368
+ },
+ {
+   "value": "IE",
+   "label": "Ireland",
+   "carbonFootprint": 7.313939808,
+   "countryCodeThreeDigit": "IRL",
+   "countryNumber": 372
+ },
+ {
+   "value": "IL",
+   "label": "Israel",
+   "carbonFootprint": 7.863181348,
+   "countryCodeThreeDigit": "ISR",
+   "countryNumber": 376
+ },
+ {
+   "value": "IT",
+   "label": "Italy",
+   "carbonFootprint": 5.270866786,
+   "countryCodeThreeDigit": "ITA",
+   "countryNumber": 380
+ },
+ {
+   "value": "JM",
+   "label": "Jamaica",
+   "carbonFootprint": 2.581445886,
+   "countryCodeThreeDigit": "JAM",
+   "countryNumber": 388
+ },
+ {
+   "value": "JP",
+   "label": "Japan",
+   "carbonFootprint": 9.538706103,
+   "countryCodeThreeDigit": "JPN",
+   "countryNumber": 392
+ },
+ {
+   "value": "JO",
+   "label": "Jordan",
+   "carbonFootprint": 2.965238308,
+   "countryCodeThreeDigit": "JOR",
+   "countryNumber": 400
+ },
+ {
+   "value": "KZ",
+   "label": "Kazakhstan",
+   "carbonFootprint": 14.36316974,
+   "countryCodeThreeDigit": "KAZ",
+   "countryNumber": 398
+ },
+ {
+   "value": "KE",
+   "label": "Kenya",
+   "carbonFootprint": 0.305923722,
+   "countryCodeThreeDigit": "KEN",
+   "countryNumber": 404
+ },
+ {
+   "value": "KI",
+   "label": "Kiribati",
+   "carbonFootprint": 0.569873207,
+   "countryCodeThreeDigit": "KIR",
+   "countryNumber": 296
+ },
+ {
+   "value": "KP",
+   "label": "Korea, Dem. People’s Rep.",
+   "carbonFootprint": 1.617371103,
+   "countryCodeThreeDigit": "PRK",
+   "countryNumber": 408
+ },
+ {
+   "value": "KR",
+   "label": "Korea, Rep.",
+   "carbonFootprint": 11.57034541,
+   "countryCodeThreeDigit": "KOR",
+   "countryNumber": 410
+ },
+ {
+   "value": "KW",
+   "label": "Kuwait",
+   "carbonFootprint": 25.84922928,
+   "countryCodeThreeDigit": "KWT",
+   "countryNumber": 414
+ },
+ {
+   "value": "KG",
+   "label": "Kyrgyz Republic",
+   "carbonFootprint": 1.646395339,
+   "countryCodeThreeDigit": "KGZ",
+   "countryNumber": 417
+ },
+ {
+   "value": "LA",
+   "label": "Lao PDR",
+   "carbonFootprint": 0.294364883,
+   "countryCodeThreeDigit": "LAO",
+   "countryNumber": 418
+ },
+ {
+   "value": "LV",
+   "label": "Latvia",
+   "carbonFootprint": 3.498192882,
+   "countryCodeThreeDigit": "LVA",
+   "countryNumber": 428
+ },
+ {
+   "value": "LB",
+   "label": "Lebanon",
+   "carbonFootprint": 3.843598231,
+   "countryCodeThreeDigit": "LBN",
+   "countryNumber": 422
+ },
+ {
+   "value": "LS",
+   "label": "Lesotho",
+   "carbonFootprint": 1.207715726,
+   "countryCodeThreeDigit": "LSO",
+   "countryNumber": 426
+ },
+ {
+   "value": "LR",
+   "label": "Liberia",
+   "carbonFootprint": 0.214493389,
+   "countryCodeThreeDigit": "LBR",
+   "countryNumber": 430
+ },
+ {
+   "value": "LY",
+   "label": "Libya",
+   "carbonFootprint": 8.95879433,
+   "countryCodeThreeDigit": "LBY",
+   "countryNumber": 434
+ },
+ {
+   "value": "LI",
+   "label": "Liechtenstein",
+   "carbonFootprint": 1.182172313,
+   "countryCodeThreeDigit": "LIE",
+   "countryNumber": 438
+ },
+ {
+   "value": "LT",
+   "label": "Lithuania",
+   "carbonFootprint": 4.378090123,
+   "countryCodeThreeDigit": "LTU",
+   "countryNumber": 440
+ },
+ {
+   "value": "LU",
+   "label": "Luxembourg",
+   "carbonFootprint": 17.36212137,
+   "countryCodeThreeDigit": "LUX",
+   "countryNumber": 442
+ },
+ {
+   "value": "MO",
+   "label": "Macao SAR, China",
+   "carbonFootprint": 2.174572354,
+   "countryCodeThreeDigit": "MAC",
+   "countryNumber": 446
+ },
+ {
+   "value": "MG",
+   "label": "Madagascar",
+   "carbonFootprint": 0.130420845,
+   "countryCodeThreeDigit": "MDG",
+   "countryNumber": 450
+ },
+ {
+   "value": "MW",
+   "label": "Malawi",
+   "carbonFootprint": 0.078339597,
+   "countryCodeThreeDigit": "MWI",
+   "countryNumber": 454
+ },
+ {
+   "value": "MY",
+   "label": "Malaysia",
+   "carbonFootprint": 8.130210313,
+   "countryCodeThreeDigit": "MYS",
+   "countryNumber": 458
+ },
+ {
+   "value": "MV",
+   "label": "Maldives",
+   "carbonFootprint": 3.068372355,
+   "countryCodeThreeDigit": "MDV",
+   "countryNumber": 462
+ },
+ {
+   "value": "ML",
+   "label": "Mali",
+   "carbonFootprint": 0.083369355,
+   "countryCodeThreeDigit": "MLI",
+   "countryNumber": 466
+ },
+ {
+   "value": "MT",
+   "label": "Malta",
+   "carbonFootprint": 5.400613957,
+   "countryCodeThreeDigit": "MLT",
+   "countryNumber": 470
+ },
+ {
+   "value": "MH",
+   "label": "Marshall Islands",
+   "carbonFootprint": 1.795694223,
+   "countryCodeThreeDigit": "MHL",
+   "countryNumber": 584
+ },
+ {
+   "value": "MR",
+   "label": "Mauritania",
+   "carbonFootprint": 0.689388119,
+   "countryCodeThreeDigit": "MRT",
+   "countryNumber": 478
+ },
+ {
+   "value": "MU",
+   "label": "Mauritius",
+   "carbonFootprint": 3.353110472,
+   "countryCodeThreeDigit": "MUS",
+   "countryNumber": 480
+ },
+ {
+   "value": "MX",
+   "label": "Mexico",
+   "carbonFootprint": 3.990446149,
+   "countryCodeThreeDigit": "MEX",
+   "countryNumber": 484
+ },
+ {
+   "value": "FM",
+   "label": "Micronesia, Fed. Sts.",
+   "carbonFootprint": 1.399279638,
+   "countryCodeThreeDigit": "FSM",
+   "countryNumber": 583
+ },
+ {
+   "value": "MD",
+   "label": "Moldova",
+   "carbonFootprint": 1.386829142,
+   "countryCodeThreeDigit": "MDA",
+   "countryNumber": 498
+ },
+ {
+   "value": "MN",
+   "label": "Mongolia",
+   "carbonFootprint": 7.088025678,
+   "countryCodeThreeDigit": "MNG",
+   "countryNumber": 496
+ },
+ {
+   "value": "ME",
+   "label": "Montenegro",
+   "carbonFootprint": 3.55607179,
+   "countryCodeThreeDigit": "MNE",
+   "countryNumber": 499
+ },
+ {
+   "value": "MA",
+   "label": "Morocco",
+   "carbonFootprint": 1.750794556,
+   "countryCodeThreeDigit": "MAR",
+   "countryNumber": 504
+ },
+ {
+   "value": "MZ",
+   "label": "Mozambique",
+   "carbonFootprint": 0.320578017,
+   "countryCodeThreeDigit": "MOZ",
+   "countryNumber": 508
+ },
+ {
+   "value": "MM",
+   "label": "Myanmar",
+   "carbonFootprint": 0.41375859,
+   "countryCodeThreeDigit": "MMR",
+   "countryNumber": 104
+ },
+ {
+   "value": "NA",
+   "label": "Namibia",
+   "carbonFootprint": 1.651692817,
+   "countryCodeThreeDigit": "NAM",
+   "countryNumber": 516
+ },
+ {
+   "value": "NR",
+   "label": "Nauru",
+   "carbonFootprint": 4.021851008,
+   "countryCodeThreeDigit": "NRU",
+   "countryNumber": 520
+ },
+ {
+   "value": "NP",
+   "label": "Nepal",
+   "carbonFootprint": 0.298463303,
+   "countryCodeThreeDigit": "NPL",
+   "countryNumber": 524
+ },
+ {
+   "value": "NL",
+   "label": "Netherlands",
+   "carbonFootprint": 9.920138075,
+   "countryCodeThreeDigit": "NLD",
+   "countryNumber": 528
+ },
+ {
+   "value": "NC",
+   "label": "New Caledonia",
+   "carbonFootprint": 16.00593173,
+   "countryCodeThreeDigit": "NCL",
+   "countryNumber": 540
+ },
+ {
+   "value": "NZ",
+   "label": "New Zealand",
+   "carbonFootprint": 7.686575825,
+   "countryCodeThreeDigit": "NZL",
+   "countryNumber": 554
+ },
+ {
+   "value": "NI",
+   "label": "Nicaragua",
+   "carbonFootprint": 0.791576323,
+   "countryCodeThreeDigit": "NIC",
+   "countryNumber": 558
+ },
+ {
+   "value": "NE",
+   "label": "Niger",
+   "carbonFootprint": 0.110542757,
+   "countryCodeThreeDigit": "NER",
+   "countryNumber": 562
+ },
+ {
+   "value": "NG",
+   "label": "Nigeria",
+   "carbonFootprint": 0.545794085,
+   "countryCodeThreeDigit": "NGA",
+   "countryNumber": 566
+ },
+ {
+   "value": "MK",
+   "label": "North Macedonia",
+   "carbonFootprint": 3.614451035,
+   "countryCodeThreeDigit": "MKD",
+   "countryNumber": 807
+ },
+ {
+   "value": "NO",
+   "label": "Norway",
+   "carbonFootprint": 9.270945132,
+   "countryCodeThreeDigit": "NOR",
+   "countryNumber": 578
+ },
+ {
+   "value": "OM",
+   "label": "Oman",
+   "carbonFootprint": 15.18879511,
+   "countryCodeThreeDigit": "OMN",
+   "countryNumber": 512
+ },
+ {
+   "value": "PK",
+   "label": "Pakistan",
+   "carbonFootprint": 0.851472804,
+   "countryCodeThreeDigit": "PAK",
+   "countryNumber": 586
+ },
+ {
+   "value": "PW",
+   "label": "Palau",
+   "carbonFootprint": 14.77119029,
+   "countryCodeThreeDigit": "PLW",
+   "countryNumber": 585
+ },
+ {
+   "value": "PA",
+   "label": "Panama",
+   "carbonFootprint": 2.255854757,
+   "countryCodeThreeDigit": "PAN",
+   "countryNumber": 591
+ },
+ {
+   "value": "PG",
+   "label": "Papua New Guinea",
+   "carbonFootprint": 0.795074226,
+   "countryCodeThreeDigit": "PNG",
+   "countryNumber": 598
+ },
+ {
+   "value": "PY",
+   "label": "Paraguay",
+   "carbonFootprint": 0.864029477,
+   "countryCodeThreeDigit": "PRY",
+   "countryNumber": 600
+ },
+ {
+   "value": "PE",
+   "label": "Peru",
+   "carbonFootprint": 2.051984358,
+   "countryCodeThreeDigit": "PER",
+   "countryNumber": 604
+ },
+ {
+   "value": "PH",
+   "label": "Philippines",
+   "carbonFootprint": 1.05114223,
+   "countryCodeThreeDigit": "PHL",
+   "countryNumber": 608
+ },
+ {
+   "value": "PL",
+   "label": "Poland",
+   "carbonFootprint": 7.517151585,
+   "countryCodeThreeDigit": "POL",
+   "countryNumber": 616
+ },
+ {
+   "value": "PT",
+   "label": "Portugal",
+   "carbonFootprint": 4.331554028,
+   "countryCodeThreeDigit": "PRT",
+   "countryNumber": 620
+ },
+ {
+   "value": "QA",
+   "label": "Qatar",
+   "carbonFootprint": 43.85730795,
+   "countryCodeThreeDigit": "QAT",
+   "countryNumber": 634
+ },
+ {
+   "value": "RO",
+   "label": "Romania",
+   "carbonFootprint": 3.516153691,
+   "countryCodeThreeDigit": "ROU",
+   "countryNumber": 642
+ },
+ {
+   "value": "RU",
+   "label": "Russian Federation",
+   "carbonFootprint": 11.85752777,
+   "countryCodeThreeDigit": "RUS",
+   "countryNumber": 643
+ },
+ {
+   "value": "RW",
+   "label": "Rwanda",
+   "carbonFootprint": 0.075764224,
+   "countryCodeThreeDigit": "RWA",
+   "countryNumber": 646
+ },
+ {
+   "value": "WS",
+   "label": "Samoa",
+   "carbonFootprint": 1.030157995,
+   "countryCodeThreeDigit": "WSM",
+   "countryNumber": 882
+ },
+ {
+   "value": "ST",
+   "label": "Sao Tome and Principe",
+   "carbonFootprint": 0.580793656,
+   "countryCodeThreeDigit": "STP",
+   "countryNumber": 678
+ },
+ {
+   "value": "SA",
+   "label": "Saudi Arabia",
+   "carbonFootprint": 19.44066648,
+   "countryCodeThreeDigit": "SAU",
+   "countryNumber": 682
+ },
+ {
+   "value": "SN",
+   "label": "Senegal",
+   "carbonFootprint": 0.624760004,
+   "countryCodeThreeDigit": "SEN",
+   "countryNumber": 686
+ },
+ {
+   "value": "RS",
+   "label": "Serbia",
+   "carbonFootprint": 5.282521917,
+   "countryCodeThreeDigit": "SRB",
+   "countryNumber": 688
+ },
+ {
+   "value": "SC",
+   "label": "Seychelles",
+   "carbonFootprint": 5.418677963,
+   "countryCodeThreeDigit": "SYC",
+   "countryNumber": 690
+ },
+ {
+   "value": "SL",
+   "label": "Sierra Leone",
+   "carbonFootprint": 0.186560088,
+   "countryCodeThreeDigit": "SLE",
+   "countryNumber": 694
+ },
+ {
+   "value": "SG",
+   "label": "Singapore",
+   "carbonFootprint": 10.30633191,
+   "countryCodeThreeDigit": "SGP",
+   "countryNumber": 702
+ },
+ {
+   "value": "SX",
+   "label": "Sint Maarten (Dutch part)",
+   "carbonFootprint": 19.46132413,
+   "countryCodeThreeDigit": "SXM",
+   "countryNumber": 534
+ },
+ {
+   "value": "SK",
+   "label": "Slovak Republic",
+   "carbonFootprint": 5.661581328,
+   "countryCodeThreeDigit": "SVK",
+   "countryNumber": 703
+ },
+ {
+   "value": "SI",
+   "label": "Slovenia",
+   "carbonFootprint": 6.213686845,
+   "countryCodeThreeDigit": "SVN",
+   "countryNumber": 705
+ },
+ {
+   "value": "SB",
+   "label": "Solomon Islands",
+   "carbonFootprint": 0.343539796,
+   "countryCodeThreeDigit": "SLB",
+   "countryNumber": 90
+ },
+ {
+   "value": "SO",
+   "label": "Somalia",
+   "carbonFootprint": 0.045347231,
+   "countryCodeThreeDigit": "SOM",
+   "countryNumber": 706
+ },
+ {
+   "value": "ZA",
+   "label": "South Africa",
+   "carbonFootprint": 8.979062348,
+   "countryCodeThreeDigit": "ZAF",
+   "countryNumber": 710
+ },
+ {
+   "value": "SS",
+   "label": "South Sudan",
+   "carbonFootprint": 0.141748232,
+   "countryCodeThreeDigit": "SSD",
+   "countryNumber": 728
+ },
+ {
+   "value": "ES",
+   "label": "Spain",
+   "carbonFootprint": 5.033824487,
+   "countryCodeThreeDigit": "ESP",
+   "countryNumber": 724
+ },
+ {
+   "value": "LK",
+   "label": "Sri Lanka",
+   "carbonFootprint": 0.885247473,
+   "countryCodeThreeDigit": "LKA",
+   "countryNumber": 144
+ },
+ {
+   "value": "KN",
+   "label": "St. Kitts and Nevis",
+   "carbonFootprint": 4.549986213,
+   "countryCodeThreeDigit": "KNA",
+   "countryNumber": 659
+ },
+ {
+   "value": "LC",
+   "label": "St. Lucia",
+   "carbonFootprint": 2.282928389,
+   "countryCodeThreeDigit": "LCA",
+   "countryNumber": 662
+ },
+ {
+   "value": "VC",
+   "label": "St. Vincent and the Grenadines",
+   "carbonFootprint": 1.920054014,
+   "countryCodeThreeDigit": "VCT",
+   "countryNumber": 670
+ },
+ {
+   "value": "SD",
+   "label": "Sudan",
+   "carbonFootprint": 0.299732598,
+   "countryCodeThreeDigit": "SDN",
+   "countryNumber": 729
+ },
+ {
+   "value": "SR",
+   "label": "Suriname",
+   "carbonFootprint": 3.598912291,
+   "countryCodeThreeDigit": "SUR",
+   "countryNumber": 740
+ },
+ {
+   "value": "SE",
+   "label": "Sweden",
+   "carbonFootprint": 4.478182178,
+   "countryCodeThreeDigit": "SWE",
+   "countryNumber": 752
+ },
+ {
+   "value": "CH",
+   "label": "Switzerland",
+   "carbonFootprint": 4.311562994,
+   "countryCodeThreeDigit": "CHE",
+   "countryNumber": 756
+ },
+ {
+   "value": "SY",
+   "label": "Syrian Arab Republic",
+   "carbonFootprint": 1.640539063,
+   "countryCodeThreeDigit": "SYR",
+   "countryNumber": 760
+ },
+ {
+   "value": "TJ",
+   "label": "Tajikistan",
+   "carbonFootprint": 0.628730158,
+   "countryCodeThreeDigit": "TJK",
+   "countryNumber": 762
+ },
+ {
+   "value": "TZ",
+   "label": "Tanzania",
+   "carbonFootprint": 0.231426985,
+   "countryCodeThreeDigit": "TZA",
+   "countryNumber": 834
+ },
+ {
+   "value": "TH",
+   "label": "Thailand",
+   "carbonFootprint": 4.620377146,
+   "countryCodeThreeDigit": "THA",
+   "countryNumber": 764
+ },
+ {
+   "value": "TL",
+   "label": "Timor-Leste",
+   "carbonFootprint": 0.399696508,
+   "countryCodeThreeDigit": "TLS",
+   "countryNumber": 626
+ },
+ {
+   "value": "TG",
+   "label": "Togo",
+   "carbonFootprint": 0.36731663,
+   "countryCodeThreeDigit": "TGO",
+   "countryNumber": 768
+ },
+ {
+   "value": "TO",
+   "label": "Tonga",
+   "carbonFootprint": 1.19779665,
+   "countryCodeThreeDigit": "TON",
+   "countryNumber": 776
+ },
+ {
+   "value": "TT",
+   "label": "Trinidad and Tobago",
+   "carbonFootprint": 33.96641445,
+   "countryCodeThreeDigit": "TTO",
+   "countryNumber": 780
+ },
+ {
+   "value": "TN",
+   "label": "Tunisia",
+   "carbonFootprint": 2.605932406,
+   "countryCodeThreeDigit": "TUN",
+   "countryNumber": 788
+ },
+ {
+   "value": "TR",
+   "label": "Turkey",
+   "carbonFootprint": 4.479773496,
+   "countryCodeThreeDigit": "TUR",
+   "countryNumber": 792
+ },
+ {
+   "value": "TM",
+   "label": "Turkmenistan",
+   "carbonFootprint": 12.51709612,
+   "countryCodeThreeDigit": "TKM",
+   "countryNumber": 795
+ },
+ {
+   "value": "TC",
+   "label": "Turks and Caicos Islands",
+   "carbonFootprint": 5.805988295,
+   "countryCodeThreeDigit": "TCA",
+   "countryNumber": 796
+ },
+ {
+   "value": "TV",
+   "label": "Tuvalu",
+   "carbonFootprint": 1.002643092,
+   "countryCodeThreeDigit": "TUV",
+   "countryNumber": 798
+ },
+ {
+   "value": "UG",
+   "label": "Uganda",
+   "carbonFootprint": 0.141664527,
+   "countryCodeThreeDigit": "UGA",
+   "countryNumber": 800
+ },
+ {
+   "value": "UA",
+   "label": "Ukraine",
+   "carbonFootprint": 5.020747064,
+   "countryCodeThreeDigit": "UKR",
+   "countryNumber": 804
+ },
+ {
+   "value": "AE",
+   "label": "United Arab Emirates",
+   "carbonFootprint": 22.93960631,
+   "countryCodeThreeDigit": "ARE",
+   "countryNumber": 784
+ },
+ {
+   "value": "GB",
+   "label": "United Kingdom",
+   "carbonFootprint": 6.49744049,
+   "countryCodeThreeDigit": "GBR",
+   "countryNumber": 826
+ },
+ {
+   "value": "US",
+   "label": "United States",
+   "carbonFootprint": 16.50283724,
+   "countryCodeThreeDigit": "USA",
+   "countryNumber": 840
+ },
+ {
+   "value": "UY",
+   "label": "Uruguay",
+   "carbonFootprint": 1.984240835,
+   "countryCodeThreeDigit": "URY",
+   "countryNumber": 858
+ },
+ {
+   "value": "UZ",
+   "label": "Uzbekistan",
+   "carbonFootprint": 3.420722746,
+   "countryCodeThreeDigit": "UZB",
+   "countryNumber": 860
+ },
+ {
+   "value": "VU",
+   "label": "Vanuatu",
+   "carbonFootprint": 0.583633966,
+   "countryCodeThreeDigit": "VUT",
+   "countryNumber": 548
+ },
+ {
+   "value": "VE",
+   "label": "Venezuela, RB",
+   "carbonFootprint": 6.164731034,
+   "countryCodeThreeDigit": "VEN",
+   "countryNumber": 862
+ },
+ {
+   "value": "VN",
+   "label": "Vietnam",
+   "carbonFootprint": 1.819893977,
+   "countryCodeThreeDigit": "VNM",
+   "countryNumber": 704
+ },
+ {
+   "value": "YE",
+   "label": "Yemen, Rep.",
+   "carbonFootprint": 0.878995612,
+   "countryCodeThreeDigit": "YEM",
+   "countryNumber": 887
+ },
+ {
+   "value": "ZM",
+   "label": "Zambia",
+   "carbonFootprint": 0.292412222,
+   "countryCodeThreeDigit": "ZMB",
+   "countryNumber": 894
+ },
+ {
+   "value": "ZW",
+   "label": "Zimbabwe",
+   "carbonFootprint": 0.884721294,
+   "countryCodeThreeDigit": "ZWE",
+   "countryNumber": 716
+ }
+]

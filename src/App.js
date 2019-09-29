@@ -1,34 +1,29 @@
 import React, { Component } from 'react';
-import './App.css';
-import logo from './logo.png';
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch } from 'react-router-dom';
 
-import ReactGA from 'react-ga';
+import Home from './components/pages/Home';
+import Calculator from './components/pages/Calculator';
 
 class App extends Component {
   render() {
-    ReactGA.initialize('UA-148187805-1');
-    ReactGA.pageview('/');
+
     return (
       <div className="App">
-
-      <body>
-        <div className="welcome-section">
-
-          <div className="section -paragraph">
-          <div className="logo-section">
-            <img src={logo} alt="The Reversible logo, a small blue dot" id="logo" />
-            <h1>Reversible</h1>
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path='/' component={Home} />
+              <Route path='/calculator' component={Calculator} />
+              <Route component={Home} />
+            </Switch>
           </div>
-            <h2>Tools for reversing climate change</h2>
-            <p>Reversible is an organization building open source software products to facilitate the removal of carbon dioxide from the atmosphere and reverse climate change.</p>
-          </div>
-
-        </div>
-
-      </body>
-
+        </Router>
       </div>
     );
+
   }
 }
 
