@@ -53,7 +53,7 @@ class Calculator extends Component {
         <div className="main-section">
           {countryValue.label}
           <h1>Your carbon footprint is <b>{parseFloat(countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h1>
-
+          <h2>That's {Number((parseFloat(countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString()} pounds of gasses in the atmosphere.</h2>
           <div className="input-group">
             <Select
               defaultValue= {{"value": "US", "label": "United States"}}
