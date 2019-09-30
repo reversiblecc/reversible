@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 
 import '../../App.css';
 import logo from '../../logo.png';
+import wordmark from '../../wordmark.svg';
 
 import ReactGA from 'react-ga';
 
@@ -19,8 +20,8 @@ class Home extends Component {
 
           <div className="section -paragraph">
           <div className="logo-section">
-            <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" /></Link>
-            <h1>Reversible</h1>
+          <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" />
+          <img src={wordmark} alt="The Reversible wordmark" id="wordmark" /></Link>
           </div>
             <h2>Software for reversing climate change</h2>
             <p>Reversible is an organization building open source software products to facilitate the removal of carbon dioxide from the atmosphere and reverse climate change.</p>
