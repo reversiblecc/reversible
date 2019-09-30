@@ -53,7 +53,7 @@ class Calculator extends Component {
 
         <div className="main-section">
         <div className="logo-section">
-          <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" /></Link>{countryValue.label}
+          <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" /></Link><h4 className="country-label">{countryValue.label.toUpperCase()}</h4>
         </div>
           <h1>Your carbon footprint is <b>{parseFloat(countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h1>
           <h2>That's {Number((parseFloat(countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString()} pounds of gasses in the atmosphere.</h2>

@@ -145,8 +145,8 @@ footer {
   font-size: 1rem;
 }
 
-.Calculator  {
-
+.Calculator .country-label  {
+  letter-spacing: 0.06em;
 }
 @media (min-width: 790px) {
   .Calculator  {
