@@ -14,7 +14,7 @@
   min-width: 100%;
 }
 .App {
-  margin: 0 10px;
+  margin: 0 15px;
   font-family: 'Rubik', sans-serif;
   font-size: 1.275rem;
 
@@ -67,7 +67,13 @@
 .logo-section {
   display: flex;
   align-items: center;
-  height: 80px;
+}
+@media (min-width: 790px) {
+  .logo-section {
+    display: flex;
+    align-items: center;
+    height: 80px;
+  }
 }
 .logo-section img {
   margin: 4px 20px 0 0;
@@ -79,13 +85,24 @@
   margin: 0;
 }
 #logo {
-  border-radius: 100px;
-  width: 40px;
-  height: 40px;
+  width: 30px;
+  height: 30px;
+}
+@media (min-width: 790px) {
+  #logo {
+    width: 40px;
+    height: 40px;
+  }
 }
 #wordmark {
-  height: 30px;
+  height: 20px;
   margin-bottom: 8px;
+  align-self: center;
+}
+@media (min-width: 790px) {
+  #wordmark {
+    height: 30px;
+  }
 }
 .main-section {
   width: 100%;
@@ -154,7 +171,7 @@ footer {
   }
 }
 .input-group {
-  margin: 40px 0;
+  margin: 30px 0 20px 0;
   width: 300px;
   font-weight: bold;
   text-transform: uppercase;
