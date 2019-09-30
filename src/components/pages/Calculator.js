@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import Select from 'react-select';
 import { Link } from 'react-router-dom';
 import ReactGA from 'react-ga';
-import countryList from 'react-select-country-list';
 
 import Navigation from '../layout/Navigation';
 import '../../App.css';
@@ -11,7 +10,6 @@ import wordmark from '../../wordmark.svg';
 
 
 import carbonFootprintsData from '../../data/carbon-footprints.json';
-const countryOptions = countryList().getData()
 
 class Calculator extends Component {
   state = {
@@ -22,11 +20,6 @@ class Calculator extends Component {
        "countryCodeThreeDigit": "USA"
      },
   }
-  // Decided to just put all the data in one file for simplicity instead of doing this.
-  // getCountryCarbonFootprint = () => {
-  //   let countryCarbonFootprint = carbonFootprintsData.filter(footprint => footprint.countryCode === this.state.countryValue.value);
-  //   return countryCarbonFootprint;
-  // }
   handlecountryChange = countryValue => {
     this.setState({ countryValue });
   }
@@ -35,7 +28,6 @@ class Calculator extends Component {
     ReactGA.initialize('UA-148187805-1');
     ReactGA.pageview('/calculator');
     const { countryValue } = this.state;
-    const { countryCarbonFootprint } = this.state;
 
     // Took this syntax from here: https://react-select.com/styles
     const selectTheme = theme => ({
