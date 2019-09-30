@@ -172,7 +172,12 @@ footer {
 }
 .input-group {
   margin: 30px 0 20px 0;
-  width: 300px;
+  width: 100%;
   font-weight: bold;
   text-transform: uppercase;
+}
+@media (min-width: 790px) {
+  .input-group {
+    width: 300px;
+  }
 }
