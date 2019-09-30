@@ -19,7 +19,7 @@ class Home extends Component {
 
           <div className="section -paragraph">
           <div className="logo-section">
-            <img src={logo} alt="The Reversible logo, a small blue dot" id="logo" />
+            <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" /></Link>
             <h1>Reversible</h1>
           </div>
             <h2>Software for reversing climate change</h2>

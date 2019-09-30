@@ -6,6 +6,7 @@ import countryList from 'react-select-country-list';
 
 import Navigation from '../layout/Navigation';
 import '../../App.css';
+import logo from '../../logo.png';
 
 import carbonFootprintsData from '../../data/carbon-footprints.json';
 const countryOptions = countryList().getData()
@@ -51,7 +52,9 @@ class Calculator extends Component {
       <Navigation />
 
         <div className="main-section">
-          {countryValue.label}
+        <div className="logo-section">
+          <Link to="/"><img src={logo} alt="The Reversible logo, a small blue dot" id="logo" /></Link>{countryValue.label}
+        </div>
           <h1>Your carbon footprint is <b>{parseFloat(countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h1>
           <h2>That's {Number((parseFloat(countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString()} pounds of gasses in the atmosphere.</h2>
           <div className="input-group">

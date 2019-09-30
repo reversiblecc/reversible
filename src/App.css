@@ -66,10 +66,16 @@ body {
 .logo-section {
   display: flex;
   align-items: center;
+  height: 80px;
+}
+.logo-section img {
+  margin: 4px 20px 0 0;
+}
+.logo-section a, .logo-section a:hover, .logo-section a:active, .logo-section a:visited {
+  background: none;
 }
 .logo-section h1 {
-  align-self: center;
-  margin: 4px 0 0 20px;
+  margin: 0;
 }
 #logo {
   border-radius: 100px;
