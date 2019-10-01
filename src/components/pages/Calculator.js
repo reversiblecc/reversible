@@ -33,7 +33,6 @@ class Calculator extends Component {
     const selectTheme = theme => ({
       ...theme,
       // borderRadius: 0,
-      fontWeight: 500,
       colors: {
       ...theme.colors,
         // primary25: '#e5e5e5',
@@ -61,6 +60,7 @@ class Calculator extends Component {
             clearable={false}
             backspaceRemovesValue={false}
             deleteRemoves={false}
+            aria-label="Choose a country"
           />
         </div>
           <h1>Your carbon footprint is <b>{parseFloat(countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h1>
