@@ -16,7 +16,7 @@
 .App {
   margin: 0 15px;
   font-family: 'Rubik', sans-serif;
-  font-size: 1.275rem;
+  font-size: 1.275em;
 
   display: flex;
   flex-direction: column;
@@ -34,7 +34,7 @@
 }
 .App h1, .App h2, .App h3 {
   font-weight: 400;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   line-height: 1.2;
 }
 @media (min-width: 790px) {
@@ -162,22 +162,39 @@ footer {
   font-size: 1rem;
 }
 
-.Calculator .country-label  {
-  letter-spacing: 0.06em;
+/* Calculator-specific styles*/
+.Calculator {
+
 }
 @media (min-width: 790px) {
   .Calculator  {
 
   }
 }
-.input-group {
+.input-wrapper {
   margin: 30px 0 20px 0;
   width: 100%;
   font-weight: bold;
   text-transform: uppercase;
 }
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.input-assist {
+  font-size: 0.6em;
+  margin-left: 3px;
+}
 @media (min-width: 790px) {
-  .input-group {
+  .input-wrapper {
     width: 300px;
+    margin-right: 20px;
   }
+  .input-group {
+    display: flex;
+    flex-direction: row;
+  }
+}
+.calculator-results {
+  font-size: 1.475rem;
 }
