@@ -10,8 +10,8 @@ import logo from '../../logo.png';
 import wordmark from '../../wordmark.svg';
 
 
-import carbonFootprintsData from '../../data/carbon-footprints.json';
-import usHouseholdcarbonFootprintsData from '../../data/us-household-carbon-footprints.json';
+import countryCarbonFootprintsData from '../../data/country-carbon-footprints.json';
+import usHouseholdCarbonFootprintsData from '../../data/us-household-carbon-footprints.json';
 
 const selectStyles = {
   menuList: (provided, state) =>  ({
@@ -66,6 +66,7 @@ class Calculator extends Component {
           <img src={wordmark} alt="The Reversible wordmark" id="wordmark" /></Link>
         </div>
         <h1>Carbon Footprint Calculator</h1>
+        <p>Calculate your estimated carbon footprint by choosing where you live.</p>
         <div className="input-group">
           <div className="input-wrapper">
             <span className="input-assist">Choose a country</span>
@@ -73,7 +74,7 @@ class Calculator extends Component {
               defaultValue= {{"value": "US", "label": "United States"}}
               value={this.state.countryValue}
               onChange={this.handleCountryChange}
-              options={carbonFootprintsData}
+              options={countryCarbonFootprintsData}
               styles={selectStyles}
               clearable={false}
               backspaceRemovesValue={false}
@@ -87,7 +88,7 @@ class Calculator extends Component {
             <Select
               value={this.state.zipCodeValue}
               onChange={this.handleZipCodeChange}
-              options={usHouseholdcarbonFootprintsData}
+              options={usHouseholdCarbonFootprintsData}
               styles={selectStyles}
               placeholder="Zip Code"
               aria-label="Enter a zip code"
@@ -105,16 +106,14 @@ class Calculator extends Component {
 
         <div className="calculator-results">
           <h2>Your carbon footprint is <b>{parseFloat(carbonFootprint || countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h2>
-          <h3>That's {(countryValue.value === "US" || countryValue.value === "MM" || countryValue.value === "LR") ? (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString() + " pounds") : (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 1000).toFixed()).toLocaleString() + " kilograms")} of gasses in the atmosphere.</h3>
-
-          <p>
-            If you live in {location.label.indexOf('United') > -1 ? "the " : ""}{location.label}{zipCodeValue ? ", " + zipCodeValue.State : ""}, your carbon footprint is about {parseFloat(carbonFootprint || countryValue.carbonFootprint).toFixed(2)} tonnes of carbon dioxide equivalent greenhouse gasses per year.
-          </p>
-
-          {(zipCodeValue === null) && <p>Source: <a href="https://databank.worldbank.org/reports.aspx?source=2&series=EN.ATM.CO2E.PC&country=#" target="_blank" rel="noopener noreferrer">DataBank</a>, World Bank, 2014.</p>}
-          {zipCodeValue && <p>Source: <a href="http://coolclimate.berkeley.edu/maps" target="_blank" rel="noopener noreferrer">CoolClimate Maps</a>, U.C. Berkeley CoolClimate Network, 2013.</p>}
-
         </div>
+
+        <h3>If you live in {location.label.indexOf('United') > -1 ? "the " : ""}{location.label}{zipCodeValue ? ", " + zipCodeValue.State : ""}, you are contributing to climate change by adding about {(countryValue.value === "US" || countryValue.value === "MM" || countryValue.value === "LR") ? (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString() + " pounds") : (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 1000).toFixed()).toLocaleString() + " kilograms")} of carbon dioxide equivalent gasses to the atmosphere every year.</h3>
+
+        {(zipCodeValue === null) && <p>Source: <a href="https://databank.worldbank.org/reports.aspx?source=2&series=EN.ATM.CO2E.PC&country=#" target="_blank" rel="noopener noreferrer">DataBank</a>, World Bank, 2014.</p>}
+        {zipCodeValue && <p>Source: <a href="http://coolclimate.berkeley.edu/maps" target="_blank" rel="noopener noreferrer">CoolClimate Maps</a>, U.C. Berkeley CoolClimate Network, 2013.</p>}
+
+
 
         </div>
 
