@@ -18,6 +18,15 @@ const selectStyles = {
     ...provided,
     height: isMobile ? 120 : null,
   }),
+  placeholder: (provided, state) => ({
+    ...provided,
+    color: "rgba(61,61,61, 0.55)",
+  }),
+  // TODO make the zip label the color of the placeholder when input is focused
+  // control: (provided, state) => ({
+  // ...provided,
+  // color: state.isFocused ? "rgba(61,61,61, 0.55)" : "#3d3d3d",
+  // }),
 }
 
 class Calculator extends Component {
@@ -29,6 +38,7 @@ class Calculator extends Component {
        "carbonFootprint": "16.50283724",
        "countryCodeThreeDigit": "USA"
      },
+    locationType: "",
     countryValue:  {
        "value": "US",
        "label": "United States",
@@ -39,10 +49,10 @@ class Calculator extends Component {
   }
   // TODO: combine into handleChange()
   handleCountryChange = countryValue => {
-    this.setState({ carbonFootprint: countryValue.carbonFootprint, location: countryValue, countryValue });
+    this.setState({ carbonFootprint: countryValue.carbonFootprint, location: countryValue, countryValue, locationType: "country" });
   }
   handleZipCodeChange = zipCodeValue => {
-    this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/2, location: zipCodeValue, zipCodeValue });
+    this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/2, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
   }
 
   render() {
@@ -52,7 +62,7 @@ class Calculator extends Component {
     const { zipCodeValue } = this.state;
     const { carbonFootprint } = this.state;
     const { location } = this.state;
-
+    const { locationType } = this.state;
 
 
     return (
@@ -108,7 +118,7 @@ class Calculator extends Component {
           <h2>Your carbon footprint is <b>{parseFloat(carbonFootprint || countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h2>
         </div>
 
-        <h3>If you live in {location.label.indexOf('United') > -1 ? "the " : ""}{location.label}{zipCodeValue ? ", " + zipCodeValue.State : ""}, you are contributing to climate change by adding about {(countryValue.value === "US" || countryValue.value === "MM" || countryValue.value === "LR") ? (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString() + " pounds") : (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 1000).toFixed()).toLocaleString() + " kilograms")} of carbon dioxide equivalent gasses to the atmosphere every year.</h3>
+        <h3>If you live in {location.label.indexOf('United') > -1 ? "the " : ""}{location.label}{locationType === "zip code" ? ", " + zipCodeValue.State : ""}, you are contributing to climate change by adding about {(countryValue.value === "US" || countryValue.value === "MM" || countryValue.value === "LR") ? (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 2204.6).toFixed()).toLocaleString() + " pounds") : (Number((parseFloat(carbonFootprint || countryValue.carbonFootprint) * 1000).toFixed()).toLocaleString() + " kilograms")} of carbon dioxide equivalent gasses to the atmosphere every year.</h3>
 
         {(zipCodeValue === null) && <p>Source: <a href="https://databank.worldbank.org/reports.aspx?source=2&series=EN.ATM.CO2E.PC&country=#" target="_blank" rel="noopener noreferrer">DataBank</a>, World Bank, 2014.</p>}
         {zipCodeValue && <p>Source: <a href="http://coolclimate.berkeley.edu/maps" target="_blank" rel="noopener noreferrer">CoolClimate Maps</a>, U.C. Berkeley CoolClimate Network, 2013.</p>}
