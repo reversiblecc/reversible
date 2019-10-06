@@ -5,6 +5,7 @@
   "dependencies": {
     "@babel/runtime": "^7.6.2",
     "react": "^16.9.0",
+    "react-device-detect": "^1.9.10",
     "react-dom": "^16.9.0",
     "react-ga": "^2.6.0",
     "react-router-dom": "^5.1.1",

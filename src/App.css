@@ -16,7 +16,7 @@
 .App {
   margin: 0 15px;
   font-family: 'Rubik', sans-serif;
-  font-size: 1.275rem;
+  font-size: 1.275em;
 
   display: flex;
   flex-direction: column;
@@ -32,13 +32,13 @@
     margin: 0 40px;
   }
 }
-.App h1, .App h2, .App h3 {
+.App h1, .App h2, .App h3 .App h4 {
   font-weight: 400;
-  margin-bottom: 0;
+  margin-bottom: 10px;
   line-height: 1.2;
 }
 @media (min-width: 790px) {
-  .App h1, .App h2, .App h3 {
+  .App h1, .App h2, .App h3 .App h4 {
     line-height: normal;
   }
 }
@@ -88,22 +88,21 @@
   width: 30px;
   height: 30px;
 }
-@media (min-width: 790px) {
-  #logo {
-    width: 40px;
-    height: 40px;
-  }
-}
 #wordmark {
   height: 20px;
   margin-bottom: 8px;
   align-self: center;
 }
 @media (min-width: 790px) {
+  #logo {
+    width: 40px;
+    height: 40px;
+  }
   #wordmark {
     height: 30px;
   }
 }
+
 .main-section {
   width: 100%;
   margin-top: 30px;
@@ -162,22 +161,43 @@ footer {
   font-size: 1rem;
 }
 
-.Calculator .country-label  {
-  letter-spacing: 0.06em;
+/* Calculator-specific styles*/
+.Calculator {
+
 }
 @media (min-width: 790px) {
   .Calculator  {
 
   }
 }
-.input-group {
-  margin: 30px 0 20px 0;
+.input-wrapper {
+  margin: 10px 0 10px 0;
   width: 100%;
   font-weight: bold;
   text-transform: uppercase;
 }
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+.input-assist {
+  font-size: 0.6em;
+  margin-left: 3px;
+}
+.calculator-results {
+  font-size: 1.475rem;
+}
 @media (min-width: 790px) {
-  .input-group {
+  .input-wrapper {
+    margin: 30px 0 20px 0;
     width: 300px;
+    margin-right: 20px;
+  }
+  .input-group {
+    display: flex;
+    flex-direction: row;
+  }
+  .calculator-results {
+    font-size: 1.875rem;
   }
 }
