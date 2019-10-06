@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Select, { createFilter } from 'react-select';
 import { Link } from 'react-router-dom';
-import { isMobile, isBrowser } from "react-device-detect";
+import { isMobile } from "react-device-detect";
 import ReactGA from 'react-ga';
 
 import Navigation from '../layout/Navigation';
@@ -92,7 +92,7 @@ class Calculator extends Component {
               aria-label="Choose a country"
             />
           </div>
-          {countryValue.value == "US" &&
+          {countryValue.value === "US" &&
           <div className="input-wrapper">
             <span className="input-assist">Enter a zip code</span>
             <Select
