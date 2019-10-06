@@ -67,7 +67,7 @@ class Calculator extends Component {
         </div>
         <h1>Carbon Footprint Calculator</h1>
         <p>Calculate your estimated carbon footprint by choosing where you live.</p>
-        <div className="input-group">
+        <form className="input-group">
           <div className="input-wrapper">
             <span className="input-assist">Choose a country</span>
             <Select
@@ -102,7 +102,7 @@ class Calculator extends Component {
                   Menu: () => null,}}
             />
           </div>}
-        </div>
+        </form>
 
         <div className="calculator-results">
           <h2>Your carbon footprint is <b>{parseFloat(carbonFootprint || countryValue.carbonFootprint).toFixed(2)}</b> tonnes of greenhouse gasses per year.</h2>
