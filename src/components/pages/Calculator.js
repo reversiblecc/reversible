@@ -86,10 +86,10 @@ class Calculator extends Component {
               onChange={this.handleCountryChange}
               options={countryCarbonFootprintsData}
               styles={selectStyles}
-              clearable={false}
+              aria-label="Choose a country"
               backspaceRemovesValue={false}
               deleteRemoves={false}
-              aria-label="Choose a country"
+              searchInput={{ autoComplete: 'nope' }}
             />
           </div>
           {countryValue.value === "US" &&
@@ -102,9 +102,9 @@ class Calculator extends Component {
               styles={selectStyles}
               placeholder="Zip Code"
               aria-label="Enter a zip code"
-
               backspaceRemovesValue={false}
               deleteRemoves={false}
+              searchInput={{ autoComplete: 'nope' }}
               filterOption={createFilter({ignoreAccents: false})}
               components={{
                   DropdownIndicator: () => null,
