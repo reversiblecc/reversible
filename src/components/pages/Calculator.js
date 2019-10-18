@@ -50,9 +50,19 @@ class Calculator extends Component {
   // TODO: combine into handleChange()
   handleCountryChange = countryValue => {
     this.setState({ carbonFootprint: countryValue.carbonFootprint, location: countryValue, countryValue, locationType: "country" });
+    ReactGA.event({
+      category: 'Calculator',
+      action: 'Country changed',
+      label: 'Country: ' + countryValue.label
+    });
   }
   handleZipCodeChange = zipCodeValue => {
     this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/2, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
+    ReactGA.event({
+      category: 'Calculator',
+      action: 'Zip changed',
+      label: 'Zip: ' + zipCodeValue.label + zipCodeValue.value
+    });
   }
 
   render() {
