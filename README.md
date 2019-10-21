@@ -1,5 +1,5 @@
 # Reversible
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors)
+[![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors)
 
 Reversible is making open source software products for reversing climate change.
 
@@ -22,6 +22,7 @@ Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/d
 <table>
   <tr>
     <td align="center"><a href="https://petercroce.org"><img src="https://avatars3.githubusercontent.com/u/10724084?v=4" width="100px;" alt="Peter Croce"/><br /><sub><b>Peter Croce</b></sub></a><br /><a href="#ideas-pscroce" title="Ideas, Planning, & Feedback">🤔</a> <a href="https://github.com/reversiblecc/reversible/commits?author=pscroce" title="Code">💻</a></td>
+    <td align="center"><a href="http://erinpeace.com"><img src="https://avatars2.githubusercontent.com/u/38957476?v=4" width="100px;" alt="Erin Peace"/><br /><sub><b>Erin Peace</b></sub></a><br /><a href="#design-erinpeace" title="Design">🎨</a></td>
   </tr>
 </table>
 
