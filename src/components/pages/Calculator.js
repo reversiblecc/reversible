@@ -6,7 +6,7 @@ import ReactGA from 'react-ga';
 
 import Navigation from '../layout/Navigation';
 import '../../App.css';
-import logo from '../../logo.png';
+import logo from '../../reversible-logo.svg';
 import wordmark from '../../wordmark.svg';
 
 
