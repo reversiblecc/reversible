@@ -1,0 +1,24 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "pscroce",
+      "name": "Peter Croce",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/10724084?v=4",
+      "profile": "https://petercroce.org",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "reversible",
+  "projectOwner": "reversiblecc",
+  "repoType": "github",
+  "repoHost": "https://github.com"
+}
