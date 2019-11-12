@@ -106,7 +106,7 @@ class Calculator extends Component {
           {
             countryValue.value === "US" &&
           <div className="input-wrapper">
-            <span className="input-assist">Enter a zip code</span>
+            <span className="input-assist">Type a US zip code and press enter</span>
             <Select
               value={this.state.zipCodeValue}
               onChange={this.handleZipCodeChange}
