@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Select
-// Commented out zip code functionality
-// , { createFilter }
-  from 'react-select';
+import Select , { createFilter } from 'react-select';
 import { Link } from 'react-router-dom';
 import { isMobile } from "react-device-detect";
 import ReactGA from 'react-ga';
@@ -14,8 +11,7 @@ import wordmark from '../../wordmark.svg';
 
 
 import countryCarbonFootprintsData from '../../data/country-carbon-footprints.json';
-// Commented out zip code functionality
-// import usHouseholdCarbonFootprintsData from '../../data/us-household-carbon-footprints.json';
+import usHouseholdCarbonFootprintsData from '../../data/us-household-carbon-footprints.json';
 
 const selectStyles = {
   menuList: (provided, state) =>  ({
@@ -60,15 +56,14 @@ class Calculator extends Component {
       label: 'Country: ' + countryValue.label
     });
   }
-  // Commented out zip code functionality
-  // handleZipCodeChange = zipCodeValue => {
-  //   this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/2, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
-  //   ReactGA.event({
-  //     category: 'Calculator',
-  //     action: 'Zip changed',
-  //     label: 'Zip: ' + zipCodeValue.label + zipCodeValue.value
-  //   });
-  // }
+  handleZipCodeChange = zipCodeValue => {
+    this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/3, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
+    ReactGA.event({
+      category: 'Calculator',
+      action: 'Zip changed',
+      label: 'Zip: ' + zipCodeValue.label + zipCodeValue.value
+    });
+  }
 
   render() {
     ReactGA.initialize('UA-148187805-1');
@@ -107,29 +102,30 @@ class Calculator extends Component {
               searchInput={{ autoComplete: 'nope' }}
             />
           </div>
+
           {
-          // Commented out zip code functionality 
-          //   countryValue.value === "US" &&
-          // <div className="input-wrapper">
-          //   <span className="input-assist">Enter a zip code</span>
-          //   <Select
-          //     value={this.state.zipCodeValue}
-          //     onChange={this.handleZipCodeChange}
-          //     options={usHouseholdCarbonFootprintsData}
-          //     styles={selectStyles}
-          //     placeholder="Zip Code"
-          //     aria-label="Enter a zip code"
-          //     backspaceRemovesValue={false}
-          //     deleteRemoves={false}
-          //     searchInput={{ autoComplete: 'nope' }}
-          //     filterOption={createFilter({ignoreAccents: false})}
-          //     components={{
-          //         DropdownIndicator: () => null,
-          //         IndicatorSeparator: () => null,
-          //         Menu: () => null,}}
-          //   />
-          // </div>
+            countryValue.value === "US" &&
+          <div className="input-wrapper">
+            <span className="input-assist">Enter a zip code</span>
+            <Select
+              value={this.state.zipCodeValue}
+              onChange={this.handleZipCodeChange}
+              options={usHouseholdCarbonFootprintsData}
+              styles={selectStyles}
+              placeholder="Zip Code"
+              aria-label="Enter a zip code"
+              backspaceRemovesValue={false}
+              deleteRemoves={false}
+              searchInput={{ autoComplete: 'nope' }}
+              filterOption={createFilter({ignoreAccents: false})}
+              components={{
+                  DropdownIndicator: () => null,
+                  IndicatorSeparator: () => null,
+                  Menu: () => null,}}
+            />
+          </div>
         }
+
         </form>
 
         <div className="calculator-results">
