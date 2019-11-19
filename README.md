@@ -13,6 +13,12 @@ Data used in the calculator
 - [World Bank DataBank](https://databank.worldbank.org/reports.aspx?source=2&series=EN.ATM.CO2E.PC&country=#) and [my version cleaned up](https://docs.google.com/spreadsheets/d/1Gi12hsUF3t9HGNSbQN83m2f9lcr_GxSOy2oS_5kzhsY/edit?usp=sharing)
 - [UC Berkeley CoolClimate](https://coolclimate.berkeley.edu/data) and [my version cleaned up](https://docs.google.com/spreadsheets/d/197CPcF3-P73tup8LQjixdN5snP2kDqTGDX7bX6VwfUI/edit#gid=0)
 
+## How to contribute
+
+Thank you for your interest! If you would like to contribute, there are many ways (not just code!) and we are always looking for people interested in helping in any way. If you'd like to help, please reach out to [Peter Croce](mailto:pscroce@gmail.com)
+
+If you're interested in committing code, great. There are usually some open issues which you are welcome to pick up, or comment on and tag @reversiblecc for clarification or suggestions. Please use [semantic commit messages](https://gist.github.com/joshbuchea/6f47e86d2510bce28f8e7f42ae84c716) to keep our commits meaningful for future contributors. If you have any suggestions about process, we'd be happy to hear those as well--we're always learning. 
+
 ## Contributors ✨
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
