@@ -57,7 +57,7 @@ class Calculator extends Component {
     });
   }
   handleZipCodeChange = zipCodeValue => {
-    this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/3, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
+    this.setState({ carbonFootprint: zipCodeValue.carbonFootprint/2, location: zipCodeValue, zipCodeValue, locationType: "zip code" });
     ReactGA.event({
       category: 'Calculator',
       action: 'Zip changed',
